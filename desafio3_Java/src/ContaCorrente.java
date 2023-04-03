@@ -1,0 +1,11 @@
+public class ContaCorrente extends Conta{
+    public ContaCorrente(Cliente cliente, Banco banco) {
+        super(cliente, banco);
+        
+    }
+
+    public void imprimirExtrato() {
+        System.out.println("===Extrato conta corrente===");
+        imprimirInfoComum();
+    }
+}
